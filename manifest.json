@@ -23,7 +23,7 @@
 	"maintainer": "Jonas Kaplan",
 	"cite": "List citations here.",
 	"license": "Other",
-	"source": "",
+	"source": "https://github.com/uscbci/fieldmap-echotimes",
 	"url": "",
 	"custom": {
 		"gear-builder": {
