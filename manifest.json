@@ -1,0 +1,37 @@
+{
+	"name": "fieldmap-echotimes",
+	"label": "fieldmap-echotimes",
+	"description": "For fieldmaps, this takes the echo times from the two magnitude images and creates the corresponding fields in the phasemap difference image metadata.",
+	"version": "0.4",
+	"inputs": {
+		"api_key": {
+			"base": "api-key"
+		}
+	},
+	"environment": {
+		"GPG_KEY": "C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF",
+		"LANG": "C.UTF-8",
+		"PATH": "/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+		"PYTHONIOENCODING": "UTF-8",
+		"PYTHON_PIP_VERSION": "19.0.1",
+		"PYTHON_VERSION": "2.7.15"
+	},
+	"config": {
+	},
+	"command": "python run.py",
+	"author": "Jonas Kaplan",
+	"maintainer": "Jonas Kaplan",
+	"cite": "List citations here.",
+	"license": "Other",
+	"source": "",
+	"url": "",
+	"custom": {
+		"gear-builder": {
+			"category": "converter",
+			"image": "flywheel/bids-client"
+		},
+		"flywheel" : {
+      		"suite": "DNI"
+    	}
+	}
+}
