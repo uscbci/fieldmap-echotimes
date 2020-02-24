@@ -10,8 +10,6 @@ with open(CONFIG_FILE_PATH) as config_file:
 api_key = config['inputs']['api_key']['key']
 session_id = config['destination']['id']
 
-
-#api_key = "uscdni.flywheel.io:oepWHsARl4CUfN6me6"
 fw = flywheel.Flywheel(api_key)
 session = fw.get_session(session_id)
 
